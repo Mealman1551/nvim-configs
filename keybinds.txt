@@ -1,0 +1,119 @@
+=== NEOVIM KEYBINDS - COMPLEET OVERZICHT ===
+
+FILE BROWSER (Neo-tree)
+-----------------------
+Ctrl+n          - Toggle file browser
+
+In Neo-tree:
+  Enter         - Open file/folder
+  a             - Nieuw bestand
+  d             - Verwijderen
+  r             - Hernoemen
+  c             - Kopiëren
+  x             - Knippen
+  p             - Plakken
+  ?             - Help menu
+
+
+FILE ZOEKEN (Telescope)
+-----------------------
+Ctrl+p          - Zoek bestanden
+Spatie+fg       - Zoek in bestanden (grep)
+Spatie+fb       - Open buffers
+
+In Telescope:
+  Ctrl+n/p      - Volgende/vorige
+  Enter         - Open bestand
+  Ctrl+c        - Sluiten
+
+
+GIT
+---
+Spatie+gg       - Open LazyGit
+
+In LazyGit:
+  ?             - Help menu
+  q             - Sluiten
+
+
+BUFFERS (bestanden)
+-------------------
+Shift+h         - Vorige buffer
+Shift+l         - Volgende buffer
+Spatie+x        - Sluit buffer
+
+
+VENSTERS
+--------
+Spatie+sv       - Verticale split
+Spatie+sh       - Horizontale split
+Ctrl+w + h      - Ga naar linker venster
+Ctrl+w + j      - Ga naar onder venster
+Ctrl+w + k      - Ga naar boven venster
+Ctrl+w + l      - Ga naar rechter venster
+
+
+OPSLAAN & NIEUW BESTAND
+------------------------
+Ctrl+s          - Opslaan (werkt in normal en insert mode)
+:e bestand.txt  - Maak/open nieuw bestand
+
+
+CLIPBOARD (systeem kopiëren/plakken)
+-------------------------------------
+Ctrl+c          - Kopieer selectie naar clipboard (visual mode)
+Ctrl+v          - Plak vanuit clipboard
+yy              - Kopieer hele regel (ook naar clipboard)
+p               - Plak
+
+
+CODE EDITING
+------------
+gcc             - Toggle comment (één regel)
+gc              - Toggle comment (visual mode selectie)
+Tab             - Volgende autocomplete suggestie
+Shift+Tab       - Vorige autocomplete suggestie
+Enter           - Accepteer suggestie
+Ctrl+Space      - Forceer autocomplete menu
+
+
+AI CODE COMPLETION (Copilot)
+-----------------------------
+Ctrl+j          - Accepteer AI suggestie (insert mode)
+Ctrl+l          - Accepteer alleen volgend woord
+Ctrl+n          - Volgende AI suggestie
+Ctrl+p          - Vorige AI suggestie
+
+
+PLUGIN MANAGER
+--------------
+Spatie+l        - Open Lazy (plugin manager)
+
+
+VIM BASIS COMMANDO'S
+--------------------
+i               - Insert mode (typen)
+ESC             - Terug naar normal mode
+v               - Visual mode (selecteren)
+V               - Visual line mode (hele regels selecteren)
+u               - Undo
+Ctrl+r          - Redo
+dd              - Delete regel
+yy              - Kopieer regel
+p               - Plak
+/zoekterm       - Zoeken in bestand
+n               - Volgende zoekresultaat
+N               - Vorige zoekresultaat
+:w              - Opslaan
+:q              - Quit
+:wq             - Opslaan en quit
+:q!             - Quit zonder opslaan
+
+
+TIPS
+----
+- Druk op "Spatie" en wacht = zie alle shortcuts (Which-key)
+- In Neo-tree druk op '?' voor alle file browser commando's
+- :Copilot setup = activeer GitHub Copilot AI
+- :Lazy = beheer plugins
+- :TSUpdate = update syntax highlighting
